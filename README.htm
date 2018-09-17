@@ -6,8 +6,14 @@
   <body>
   <script>
   function Pink() {
-  document.getElementById("ChangePink").style.color = "red";}
+  document.getElementById("BaseText").style.color = "pink";}
+  function Blue() {
+  document.getElementById("BaseText").style.color = "blue";}
+  function Orange() {
+  document.getElementById("BaseText").style.color = "orange";}
   </script>
-    <p id="ChangePink">Hello! I change color!</p>
+    <p id="BaseText">Hello! I change color!</p>
     <button onclick="Pink()">Change Color</button>
+    <button onclick="Blue()">Change Color Again</button>
+    <button onclick="Orange()">Change Color Again..</button>
   </body>  
